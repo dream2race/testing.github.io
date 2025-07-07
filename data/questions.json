@@ -1,0 +1,18 @@
+{
+  "math": [
+    {
+      "question": "Find the derivative of x^2.",
+      "options": ["2x", "x", "x^2", "1"],
+      "answer": "2x",
+      "hint": "Use the power rule d/dx x^n = n x^(n-1)."
+    }
+  ],
+  "history": [
+    {
+      "question": "When did Lithuania declare independence from the Soviet Union?",
+      "options": ["1988", "1990", "1991", "1993"],
+      "answer": "1990",
+      "hint": "It happened on March 11th."
+    }
+  ]
+}

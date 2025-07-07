@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Exam Generator</title>
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Egzaminų Generatorius</h1>
+    <div id="question-area" class="fade-in">
+      <img id="diagram" src="" alt="" style="max-width: 400px; display:none;" />
+      <p id="question-text"></p>
+      <div id="options"></div>
+      <p id="feedback" class="feedback"></p>
+      <button id="next-btn" onclick="loadQuestion(currentSubject)">Kitas klausimas</button>
+    </div>
+    <div class="subjects">
+      <button onclick="selectSubject('math')">Matematika</button>
+      <button onclick="selectSubject('history')">Istorija</button>
+      <button onclick="selectSubject('geometry')">Geometrija</button>
+    </div>
+  </div>
+<script src="static/js/app.js"></script>
+</body>
+</html>
